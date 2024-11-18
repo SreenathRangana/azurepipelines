@@ -6,7 +6,7 @@
 trigger: none
 # - main
 
-pool: kubernetes-self-hosted-agent
+pool: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
